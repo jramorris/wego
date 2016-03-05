@@ -1,0 +1,7 @@
+<h1>Tokyo Wego</h1>
+<% @client.user_timeline.each do |tweet| %>
+  <%= tweet.id %>
+<% end %>
+and
+<%= 'Alex - ' + @alex.first[:text] %>
+<%= 'Garry - ' + @garry.first[:text] %>
