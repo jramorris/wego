@@ -1,0 +1,7 @@
+<ul class="tweet">
+  <li class="tweet_banner"><img src=<%= account[:profile_banner_url] %>/web class="banner_image"></li>
+  <li><img src=<%= account[:profile_image_url] %> class="profile_image"></li>
+  <li class="account_name"><%= account[:name] %></li>
+  <li class="twitter_handle">@<%= account[:screen_name] %></li>
+  <li class="tweet_text"><%= account[:status][:text] %></li>
+</ul>

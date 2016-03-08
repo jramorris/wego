@@ -1,7 +1,7 @@
 <h1>Tokyo Wego</h1>
-<% @client.user_timeline.each do |tweet| %>
-  <%= tweet.id %>
-<% end %>
-and
-<%= 'Alex - ' + @alex.first[:text] %>
-<%= 'Garry - ' + @garry.first[:text] %>
+<div class="scrolls">
+  <%= render partial: "/shared/tweet", locals: { account: @alex } %>
+  <%= render partial: "/shared/tweet", locals: { account: @garry } %>
+  <%= render partial: "/shared/tweet", locals: { account: @james } %>
+  <%= render partial: "/shared/tweet", locals: { account: @tokyo } %>
+</div>
