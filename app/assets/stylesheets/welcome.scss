@@ -1,7 +1,59 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-h1 {
-  color: red;
-  font-family:'wego','helvetica';
+
+/* Twitter Stylings */
+
+.tweet {
+  height:280px;
+  width:290px;
+  border:1px solid #E1E8ED;
+  border-radius:5px;
+  background-color:#F5F8FA;
+  display:inline-block;
+  vertical-align:top;
+}
+.tweet_banner {
+  height:95px!important;
+  width:100%;
+  valign:top;
+  border-bottom: 1px solid #E1E8ED;
+}
+.banner_image {
+  width:290px;
+  height:95px;
+}
+.profile_image {
+  width:70px;
+  height:70px;
+  margin-top:-30px;
+  border-radius:10px;
+  border:2px solid #fff;
+  margin-left:15px;
+}
+.account_name {
+  width:290px;
+  height:22px;
+  font-weight:700;
+  padding-left:15px;
+  font-family:helvetica;
+  font-size:18px;
+}
+.twitter_handle {
+  padding-left:15px;
+  font-family:helvetica;
+  color:#667587;
+}
+.tweet_text {
+  padding-left:15px;
+  padding-top:5px;
+  font-family:arial;
+  line-height:115%;
+  white-space:normal;
+}
+.scrolls {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 300px;
+    white-space:nowrap;
 }
