@@ -12,6 +12,8 @@
   background-color:#F5F8FA;
   display:inline-block;
   vertical-align:top;
+  margin-left:5px;
+  text-align:center;
 }
 .tweet_banner {
   height:95px!important;
@@ -22,6 +24,8 @@
 .banner_image {
   width:290px;
   height:95px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
 }
 .profile_image {
   width:70px;
@@ -38,22 +42,28 @@
   padding-left:15px;
   font-family:helvetica;
   font-size:18px;
+  text-align:left;
 }
 .twitter_handle {
   padding-left:15px;
   font-family:helvetica;
   color:#667587;
+  text-align:left;
 }
 .tweet_text {
   padding-left:15px;
   padding-top:5px;
+  padding-right:15px;
   font-family:arial;
   line-height:115%;
   white-space:normal;
+  text-align:left;
 }
 .scrolls {
     overflow-x: scroll;
     overflow-y: hidden;
     height: 300px;
     white-space:nowrap;
+    width:70%;
+    margin:auto;
 }

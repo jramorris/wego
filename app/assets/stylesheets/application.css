@@ -75,6 +75,12 @@ h3 {
   font-family:'times';
   font-size:18px;
 }
+.saying {
+    font-family:'helvetica';
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:100px;
+}
 
 /* app layout styles */
 
@@ -82,16 +88,19 @@ header {
   width:100%;
   align:center;
   background-color:#fff;
-  padding:10px;
+  padding-top:50px;
+  padding-bottom:50px;
   background-image:url("japan_flag.png");
   background-repeat:no-repeat;
   background-position:center;
+  text-align:center;
 }
 .site {
-  padding-left:15px;
-  padding-right:15px;
   background-color:#fff;
   width:100%;
+  background-image:url("branch.png");
+  background-repeat:no-repeat;
+  background-position:right;
 }
 @font-face {
   font-family:'wego';
